@@ -20,9 +20,9 @@
                 >List of Countries without Coronavirus case</a
               >
               <div class="site-info">
-                <div class="uk-flex uk-flex-between uk-margin-small-top">
+                <div class="uk-flex uk-flex-middle uk-margin-small-top">
                   <img
-                    class="img"
+                    class="img uk-margin-medium-right"
                     src="src/assets/img/person/person_1.jpg"
                     alt=""
                   />
@@ -54,7 +54,23 @@
               <a class="uk-card-title"
                 >Recovery Room: News beyond the pandemic</a
               >
-              <p>Lorem ipsum</p>
+              <div class="site-info">
+                <div class="uk-flex uk-flex-middle uk-margin-small-top">
+                  <img
+                    class="img uk-margin-medium-right"
+                    src="src/assets/img/person/person_2.jpg"
+                    alt=""
+                  />
+                  <p>Walter White</p>
+                </div>
+                <div class="uk-flex uk-flex-left uk-flex-middle">
+                  <span
+                    class="icon uk-margin-small-right"
+                    uk-icon="icon: clock"
+                  ></span>
+                  <p>1 week ago</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -73,7 +89,23 @@
               <a class="uk-card-title"
                 >What is the impact of eating too much sugar?</a
               >
-              <p>Lorem ipsum</p>
+              <div class="site-info">
+                <div class="uk-flex uk-flex-middle uk-margin-small-top">
+                  <img
+                    class="img uk-margin-medium-right"
+                    src="src/assets/img/person/person_3.jpg"
+                    alt=""
+                  />
+                  <p>Diego Simmons</p>
+                </div>
+                <div class="uk-flex uk-flex-left uk-flex-middle">
+                  <span
+                    class="icon uk-margin-small-right"
+                    uk-icon="icon: clock"
+                  ></span>
+                  <p>1 week ago</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
