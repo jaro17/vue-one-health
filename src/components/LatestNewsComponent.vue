@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <section>
@@ -10,17 +8,31 @@
         <div>
           <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-              <img src="src/assets/img/blog/blog_1.jpg" width="" height="" alt="">
+              <img
+                src="src/assets/img/blog/blog_1.jpg"
+                width=""
+                height=""
+                alt=""
+              />
             </div>
             <div class="uk-card-body">
-              <a class="uk-card-title">List of Countries without Coronavirus case</a>
+              <a class="uk-card-title"
+                >List of Countries without Coronavirus case</a
+              >
               <div class="site-info">
                 <div class="uk-flex uk-flex-between uk-margin-small-top">
-                  <img src="src/assets/img/person/person_1.jpg" class="uk-border-circle" width="60" height="" alt="">
+                  <img
+                    class="img"
+                    src="src/assets/img/person/person_1.jpg"
+                    alt=""
+                  />
                   <p>Roger Adams</p>
                 </div>
                 <div class="uk-flex uk-flex-left uk-flex-middle">
-                  <span class="icon uk-margin-small-right" uk-icon="icon: clock"></span>
+                  <span
+                    class="icon uk-margin-small-right"
+                    uk-icon="icon: clock"
+                  ></span>
                   <p>1 week ago</p>
                 </div>
               </div>
@@ -31,11 +43,18 @@
         <div>
           <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-              <img src="src/assets/img/blog/blog_2.jpg" width="" height="" alt="">
+              <img
+                src="src/assets/img/blog/blog_2.jpg"
+                width=""
+                height=""
+                alt=""
+              />
             </div>
             <div class="uk-card-body">
-              <a class="uk-card-title">Recovery Room: News beyond the pandemic</a>
-              <p>Lorem ipsum </p>
+              <a class="uk-card-title"
+                >Recovery Room: News beyond the pandemic</a
+              >
+              <p>Lorem ipsum</p>
             </div>
           </div>
         </div>
@@ -43,18 +62,26 @@
         <div>
           <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-              <img src="src/assets/img/blog/blog_3.jpg" width="" height="" alt="">
+              <img
+                src="src/assets/img/blog/blog_3.jpg"
+                width=""
+                height=""
+                alt=""
+              />
             </div>
             <div class="uk-card-body">
-              <a class="uk-card-title">What is the impact of eating too much sugar?</a>
-              <p>Lorem ipsum </p>
+              <a class="uk-card-title"
+                >What is the impact of eating too much sugar?</a
+              >
+              <p>Lorem ipsum</p>
             </div>
           </div>
         </div>
-
       </div>
 
-      <button class="uk-button-default login-button uk-border-rounded">Read More</button>
+      <button class="uk-button-default login-button uk-border-rounded">
+        Read More
+      </button>
     </div>
   </section>
 </template>
@@ -110,6 +137,12 @@ button {
 .site-info .icon {
   width: 10px;
   font-weight: bold;
+}
+
+.site-info .img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
 @media (max-width: 1120px) {
