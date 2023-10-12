@@ -2,6 +2,7 @@
 import TopbarComponent from "@/components/TopbarComponent.vue";
 import SliderComponent from "@/components/SliderComponent.vue";
 import LatestNewsComponent from "@/components/LatestNewsComponent.vue";
+import AppoinmentComponent from "../components/AppoinmentComponent.vue";
 </script>
 
 <template>
@@ -70,6 +71,8 @@ import LatestNewsComponent from "@/components/LatestNewsComponent.vue";
     <SliderComponent />
 
     <LatestNewsComponent />
+
+    <AppoinmentComponent />
   </div>
 
 
