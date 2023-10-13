@@ -25,11 +25,6 @@
 .banner {
   background-color: var(--green);
   background-image: url("src/assets/img/banner-pattern.svg");
- /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 40vh;*/
 }
 
 .container {
