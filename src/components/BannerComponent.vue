@@ -4,19 +4,19 @@
 
 <template>
   <div class="banner">
-    <div class="container uk-container-small">
-      <div class="">
-        <img src="src/assets/img/mobile_app.png" alt="Cell Phone">
-      </div>
-      <div class="">
-        <h2 class="text uk-width-1-1">
+    <div class="container  uk-flex">
+      <img class="img" src="src/assets/img/mobile_app.png" alt="Cell Phone">
+
+      <div class="uk-margin-medium-left">
+        <div class="text">
           Get easy access of all features using One Health Application
-        </h2>
+        </div>
         <div class="uk-flex images">
           <img src="src/assets/img/google_play.svg" alt="Google Play">
           <img src="src/assets/img/app_store.svg" alt="Apple Store">
         </div>
       </div>
+
     </div>
   </div>
 </template>
@@ -31,29 +31,35 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-
+  width: 70%;
 }
 
 .banner img {
   width: 200px;
   height: 300px;
+  align-self: end;
 }
 
-.banner .text {
+.text {
   margin-top: 5rem;
   color: #fff;
+  font-size: 2.5rem;
 }
 
 .banner .images {
-  margin-top: -4rem;
+  margin-top: -6rem;
 }
 
 @media (max-width: 1120px) {
-  .uk-container-large {
+  .container {
     flex-direction: column;
     padding-top: 4rem;
     width: 80%;
     align-content: center;
+  }
+
+  .img {
+    display: none;
   }
 }
 </style>
