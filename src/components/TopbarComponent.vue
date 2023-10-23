@@ -32,11 +32,21 @@
         </div>
         <div class="uk-navbar-right">
           <ul class="navbar uk-navbar-nav uk-flex uk-flex-middle">
-            <li><a href="" class="uk-text-capitalize">Home</a></li>
-            <li><a href="" class="uk-text-capitalize" :style="{ color: 'var(--green)' }">About Us</a></li>
-            <li><a href="" class="uk-text-capitalize">Doctors</a></li>
-            <li><a href="" class="uk-text-capitalize">News</a></li>
-            <li><a href="" class="uk-text-capitalize">Contact</a></li>
+            <router-link to="/" exact class="uk-text-capitalize" active-class="active-link">
+              Home
+            </router-link>
+            <router-link to="/about" class="uk-text-capitalize" active-class="active-link">
+              About Us
+            </router-link>
+            <router-link to="/doctors" class="uk-text-capitalize" active-class="active-link">
+              Doctors
+            </router-link>
+            <router-link to="/news" class="uk-text-capitalize" active-class="active-link">
+              News
+            </router-link>
+            <router-link to="/contact" class="uk-text-capitalize" active-class="active-link">
+              Contact
+            </router-link>
             <li>
               <button class="uk-button-default login-button uk-border-rounded">Login/Register</button>
             </li>
@@ -53,7 +63,8 @@
                 <li><a href="" class="uk-text-capitalize">News</a></li>
                 <li><a href="" class="uk-text-capitalize">Contact</a></li>
                 <li>
-                  <button class="uk-button-default login-button uk-border-rounded uk-margin-small-top">Login/Register</button>
+                  <button class="uk-button-default login-button uk-border-rounded uk-margin-small-top">Login/Register
+                  </button>
                 </li>
               </ul>
 

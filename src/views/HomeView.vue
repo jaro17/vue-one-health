@@ -4,6 +4,7 @@ import SliderComponent from "@/components/SliderComponent.vue";
 import LatestNewsComponent from "@/components/LatestNewsComponent.vue";
 import AppoinmentComponent from "../components/AppoinmentComponent.vue";
 import BannerComponent from "@/components/BannerComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 </script>
 
 <template>
@@ -76,6 +77,8 @@ import BannerComponent from "@/components/BannerComponent.vue";
     <AppoinmentComponent />
 
     <BannerComponent />
+
+    <FooterComponent />
   </div>
 
 
@@ -85,6 +88,10 @@ import BannerComponent from "@/components/BannerComponent.vue";
 <style scoped>
 .uk-background-cover {
   filter: brightness(50%);
+}
+
+.hero-section {
+  width: 100%;
 }
 
 .hero-section h1 {
@@ -115,7 +122,7 @@ import BannerComponent from "@/components/BannerComponent.vue";
 
 .card-container {
   position: absolute;
-  margin: -3rem;
+  margin-top: -3rem;
   display: flex;
   left: 50%;
   transform: translateX(-50%);
@@ -175,12 +182,18 @@ import BannerComponent from "@/components/BannerComponent.vue";
 @media (max-width: 1120px) {
   .card-container {
     flex-direction: column;
-    align-items: center;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 500px;
   }
 
   .uk-card {
-    margin-bottom: 2rem;
     width: 70%;
+    margin: 0 auto 2rem;
+  }
+
+  .page-section {
+    margin-top: 12rem;
   }
 
   .page-section .container {
