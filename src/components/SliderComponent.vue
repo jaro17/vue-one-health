@@ -110,7 +110,15 @@
 
 @media (max-width: 1120px) {
   .slider {
-    margin-top: 80rem;
+    margin-top: 96rem;
   }
+
+  li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
 }
 </style>

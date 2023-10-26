@@ -12,8 +12,8 @@
           Get easy access of all features using One Health Application
         </div>
         <div class="uk-flex images">
-          <img src="src/assets/img/google_play.svg" alt="Google Play">
-          <img src="src/assets/img/app_store.svg" alt="Apple Store">
+          <img class="img" src="src/assets/img/google_play.svg" alt="Google Play">
+          <img class="img" src="src/assets/img/app_store.svg" alt="Apple Store">
         </div>
       </div>
 
@@ -48,6 +48,11 @@
 
 .banner .images {
   margin-top: -6rem;
+  padding: 0;
+}
+
+img.img:hover {
+   cursor: pointer;
 }
 
 @media (max-width: 1120px) {

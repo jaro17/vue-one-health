@@ -111,7 +111,7 @@
         </div>
       </div>
 
-      <button class="uk-button-default login-button uk-border-rounded">
+      <button class="uk-button uk-button-default login-button uk-border-rounded uk-text-capitalize">
         Read More
       </button>
     </div>
@@ -160,6 +160,12 @@ button {
   width: 14rem;
   margin-top: 3rem;
   font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: var(--grey);
+  color: #fff;
+  transition: background-color 0.3s;
 }
 
 .site-info p {

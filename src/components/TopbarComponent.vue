@@ -32,19 +32,19 @@
         </div>
         <div class="uk-navbar-right">
           <ul class="navbar uk-navbar-nav uk-flex uk-flex-middle">
-            <router-link to="/" exact class="uk-text-capitalize" active-class="active-link">
+            <router-link to="/" exact class="uk-text-capitalize custom-link" active-class="active-link">
               Home
             </router-link>
-            <router-link to="/about" class="uk-text-capitalize" active-class="active-link">
+            <router-link to="/about" class="uk-text-capitalize custom-link" active-class="active-link">
               About Us
             </router-link>
-            <router-link to="/doctors" class="uk-text-capitalize" active-class="active-link">
+            <router-link to="/doctors" class="uk-text-capitalize custom-link" active-class="active-link">
               Doctors
             </router-link>
-            <router-link to="/news" class="uk-text-capitalize" active-class="active-link">
+            <router-link to="/news" class="uk-text-capitalize custom-link" active-class="active-link">
               News
             </router-link>
-            <router-link to="/contact" class="uk-text-capitalize" active-class="active-link">
+            <router-link to="/contact" class="uk-text-capitalize custom-link" active-class="active-link">
               Contact
             </router-link>
             <li>
@@ -119,6 +119,25 @@ hr {
 a.uk-text-capitalize {
   font-size: 1rem;
 }
+
+.active-link {
+  color: var(--green) !important;
+}
+
+.custom-link {
+  color: rgba(110, 128, 122, 0.8);
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #525E59CC;
+}
+
+.navbar .login-button:hover {
+  background-color: var(--grey);
+  transition: background-color 0.3s;
+}
+
 
 @media (max-width: 1120px) {
   .navbar {

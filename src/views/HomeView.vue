@@ -22,7 +22,7 @@ import FooterComponent from "@/components/FooterComponent.vue";
           LET'S MAKE YOUR LIFE HAPPIER
         </div>
         <h1>Healthy Living</h1>
-        <button class="uk-button-default login-button uk-border-rounded">Login/Register</button>
+        <button class="uk-button uk-button-default  uk-border-rounded uk-text-capitalize" type="button">Let's Consult</button>
       </div>
 
       <div class="card-container uk-container" uk-flex>
@@ -54,13 +54,13 @@ import FooterComponent from "@/components/FooterComponent.vue";
 
       <div class="page-section">
         <div class="container uk-container">
-          <div class="uk-width-1-2 welcome">
+          <div class="uk-width-1-2 uk-width-1-1s welcome">
             <h2>Welcome to Your Health Center</h2>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
               et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro consequatur ex aspernatur.
               Explicabo, excepturi accusantium! Placeat voluptates esse ut optio facilis!</p>
-            <button class="uk-button-default login-button uk-border-rounded">Learn More</button>
+            <button class="uk-button uk-button-default  uk-border-rounded uk-text-capitalize" type="button">Learn More</button>
           </div>
           <div class="uk-width-1-2 img">
             <img src="src/assets/img/bg-doctor.png" alt="" style=" max-width: 25rem;">
@@ -111,13 +111,20 @@ import FooterComponent from "@/components/FooterComponent.vue";
   color: #fff;
 }
 
-.container button {
+button.uk-button-default {
   background-color: var(--green);
   color: #fff;
   position: relative;
   padding: 0.8rem 1.5rem;
   font-size: 14px;
   border: 1px solid var(--green);
+  cursor: pointer;
+}
+
+button.uk-button-default:hover {
+  background-color: var(--grey);
+  transition: background-color 0.3s;
+  border: none;
 }
 
 .card-container {
@@ -168,6 +175,16 @@ import FooterComponent from "@/components/FooterComponent.vue";
   align-items: center;
 }
 
+.page-section .container .welcome button {
+  cursor: pointer;
+}
+
+.page-section .container .welcome button:hover {
+  background-color: var(--grey);
+  transition: background-color 0.3s;
+  border: none;
+}
+
 .page-section .welcome {
   display: flex;
   flex-direction: column;
@@ -193,11 +210,11 @@ import FooterComponent from "@/components/FooterComponent.vue";
   }
 
   .page-section {
-    margin-top: 12rem;
+    margin-top: 0;
   }
 
   .page-section .container {
-    margin-top: 14rem;
+    margin-top: 16rem;
     flex-direction: column;
   }
 
@@ -230,6 +247,9 @@ import FooterComponent from "@/components/FooterComponent.vue";
   .page-section .container img {
     width: 20rem;
   }
+}
+
+@media (max-width: 768px) {
 
 }
 </style>
